@@ -9,7 +9,7 @@ function App() {
 		<div className="App">
 			<BrowserRouter>
 				<Switch>
-					<Route path="/">
+					<Route path="/" exact>
 						<Home />
 					</Route>
 					<Route path="/registry">
