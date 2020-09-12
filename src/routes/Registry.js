@@ -40,7 +40,7 @@ function Registry() {
 	return (
 		<div>
 			<h1>Registry</h1>
-			<Link to="/home">To go to Home. Click Here!</Link>
+			<Link to="/">To go to Home. Click Here!</Link>
 			<form onSubmit={addItem}>
 				<label>
 					Text Input:
